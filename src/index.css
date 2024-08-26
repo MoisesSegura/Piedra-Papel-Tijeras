@@ -1,0 +1,80 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #00b1b0;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff8370;
+  color: black;
+
+}
+
+button:hover{
+  background-color: #fec84d;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #e42256;
+  font-weight: bolder;
+  text-shadow: 
+  -1px -1px 0 #000, /* Delineado a la izquierda y arriba */
+  1px -1px 0 #000,  /* Delineado a la derecha y arriba */
+  -1px 1px 0 #000,  /* Delineado a la izquierda y abajo */
+  1px 1px 0 #000;   /* Delineado a la derecha y abajo */
+}
+
+h2 {
+  font-size: 24px;
+  color: #e42256;
+  text-shadow: 
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,  
+  -1px 1px 0 #000,  
+  1px 1px 0 #000;  
+}
+
+h4 {
+  font-size: 24px;
+  color: #ff8370;
+  text-shadow: 
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,  
+  -1px 1px 0 #000,  
+  1px 1px 0 #000;  
+}
+
+h3 {
+  color: #fec84d;
+  text-shadow: 
+  -1px -1px 0 #000, 
+  1px -1px 0 #000,  
+  -1px 1px 0 #000,  
+  1px 1px 0 #000;  
+}
